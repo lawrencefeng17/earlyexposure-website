@@ -1886,7 +1886,7 @@ function TopBar() {
           <a href="#interventions">Interventions</a>
           <a href="#implications">Implications</a>
         </nav>
-        <a className="cta disabled" href="#" title="PDF coming soon">Read the paper ↗</a>
+        <a className="cta" href="https://arxiv.org/abs/2605.12705" target="_blank" rel="noopener">Read the paper ↗</a>
       </div>
     </div>
   );
@@ -1924,8 +1924,8 @@ function Hero() {
       </div>
 
       <div className="actions">
-        <a className="primary disabled" href="#" title="PDF coming soon">PDF (coming soon)</a>
-        <a className="disabled" href="#" title="arXiv coming soon">arXiv ↗</a>
+        <a className="primary" href="https://arxiv.org/pdf/2605.12705" target="_blank" rel="noopener">PDF ↗</a>
+        <a href="https://arxiv.org/abs/2605.12705" target="_blank" rel="noopener">arXiv ↗</a>
       </div>
     </header>
   );
@@ -2413,14 +2413,14 @@ function Footer() {
             Cite
           </div>
           <div className="cite">
-{`@misc{feng2026earlyexposure,
-  title  = {Learning to Remember: How Early Data Exposure
-            Protects Post-Trained Capabilities from
-            Catastrophic Forgetting},
-  author = {Feng, Lawrence and Ghosal, Gaurav R. and
-            Springer, Jacob Mitchell and Zhong, Ziqian and
-            Raghunathan, Aditi},
-  year   = {2026}
+{`@misc{feng2026earlydataexposureimproves,
+      title={Early Data Exposure Improves Robustness to Subsequent Fine-Tuning},
+      author={Lawrence Feng and Gaurav R. Ghosal and Jacob Mitchell Springer and Ziqian Zhong and Aditi Raghunathan},
+      year={2026},
+      eprint={2605.12705},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.12705},
 }`}
           </div>
         </div>
